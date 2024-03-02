@@ -29,6 +29,6 @@ header .logo {
     margin-bottom: auto;
 }
 
-#api_status.available {
+.available {
     background-color: #ff545f;
 }
