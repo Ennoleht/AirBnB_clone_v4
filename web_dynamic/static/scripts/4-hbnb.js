@@ -14,7 +14,7 @@ function init () {
   
   getStatus();
   getPlaces({});
-  $('button').clicked(getPlaces())
+  $('button').clicked(getPlaces({ amenities: Object.values(amenityObj )}));
 }
 
 function getStatus() {
